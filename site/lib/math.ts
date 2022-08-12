@@ -6,7 +6,6 @@ export const hex2rgb = (hex: string): [number, number, number] => {
 	return [
 		(v >> 16) & 255,
 		(v >> 8) & 255,
-		v & 255,
 	]
 }
 
